@@ -1,0 +1,15 @@
+{
+  "name": "rolldown-bug-reproduction",
+  "type": "module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "rolldown -w -c",
+    "test": "node dist/index.js"
+  },
+  "devDependencies": {
+    "rolldown": "1.0.0-beta.7",
+    "vue": "3.5.0"
+  }
+}
